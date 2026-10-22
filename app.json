@@ -38,6 +38,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "01b0fee8-5386-4d58-8205-6f30240cd709"
+      }
+    },
+    "owner": "kisteryovs-team"
   }
 }
