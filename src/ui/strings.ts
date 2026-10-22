@@ -1,0 +1,24 @@
+export const strings = {
+  ru: {
+    app: 'Plant Care', settings: 'Настройки', plants: 'Мои растения', today: 'Пора полить',
+    add: 'Добавить растение', edit: 'Изменить растение', name: 'Название растения',
+    icon: 'Выберите иконку', interval: 'Интервал полива (дней)', save: 'Сохранить', cancel: 'Отмена',
+    water: 'Полил', history: 'История полива', empty: 'Здесь будут ваши растения',
+    emptyHint: 'Добавьте первое растение и укажите, как часто его поливать.', next: 'Следующий полив', overdue: 'Просрочено',
+    days: 'дн.', todayLabel: 'Сегодня', tomorrow: 'Завтра', delete: 'Удалить растение', deleteAsk: 'Удалить растение и его историю полива?',
+    language: 'Язык', noHistory: 'Пока нет записей о поливе',
+    invalidName: 'Введите название растения', invalidInterval: 'Укажите интервал от 1 до 365 дней',
+    saveError: 'Не удалось сохранить данные на устройстве. Повторите попытку.',
+  },
+  en: {
+    app: 'Plant Care', settings: 'Settings', plants: 'My plants', today: 'Time to water',
+    add: 'Add plant', edit: 'Edit plant', name: 'Plant name',
+    icon: 'Choose an icon', interval: 'Water every (days)', save: 'Save', cancel: 'Cancel',
+    water: 'Watered', history: 'Watering history', empty: 'Your plants will appear here',
+    emptyHint: 'Add your first plant and set its watering interval.', next: 'Next watering', overdue: 'Overdue',
+    days: 'd', todayLabel: 'Today', tomorrow: 'Tomorrow', delete: 'Delete plant', deleteAsk: 'Delete this plant and its watering history?',
+    language: 'Language', noHistory: 'No watering records yet',
+    invalidName: 'Enter a plant name', invalidInterval: 'Enter an interval from 1 to 365 days',
+    saveError: 'Could not save data on this device. Please try again.',
+  },
+};
